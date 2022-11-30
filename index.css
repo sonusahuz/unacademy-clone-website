@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;1,100&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #fcfcfc; 
+}
+.content{
+    padding:50px 0;
+}
+.container {
+    padding: 0 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar .btn {
+    padding: 6px 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: rgb(85, 85, 255);
+
+}
+
+.flex-left .btn {
+    padding: 12px 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: rgb(85, 85, 255);
+    width: 14%;
+line-height: 6rem;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.flex-left h1{
+    font-size: 55px;
+    color: #3C4852;
+}
+
+.flex-img img {
+    width: 500px;
+}
+.box{
+    margin:50px 0;
+}
+.box .icon img{
+   
+   width: 340px;
+}
+  
+
+.flex-head h3{
+    font-size:23px;
+    color: #3C4852;
+    line-height: 4rem;
+    margin-top: 10px
+}
+.flex-head p{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 150%;
+    color: rgb(90, 87, 87);
+    
+}
+
+.flex-right-img img{
+    width: 400px;
+}
+.flex-left p{
+    line-height: 4rem;
+}
+.img4{
+    width: 550px;
+}
+.flex-left2 h1{
+    font-size: 30px;
+}
+
+.footer-section h4{
+    color: rgb(61, 60, 60);
+    text-transform: capitalize;
+    font-size: 12px;
+    
+}
+.footer-content{
+    padding:20px 0;
+    
+}
+.footer-content ul li{
+    list-style: none;
+    position: relative;
+}
+.footer-content ul li a{
+    color: #3C4852;
+text-transform: capitalize;
+font-size: 13px;
+
+}
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:20px 0;
+    justify-content: space-between;
+ 
+}
+.footer-p p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(61, 60, 60);;
+    padding: 20px 0;
+}
+.icon a{
+    color: #3C4852;
+    text-decoration: nones;
+    font-size: 18px;
+    margin: 0 6px;
+
+}
+.flex3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.footer-left p{
+    color:#7A8B94;;
+    font-size: 12px;
+
+}
+@media(max-width:800px) {
+    
+}
